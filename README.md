@@ -1,6 +1,6 @@
 # TextViewFirstCharacter
 
-Sample project to reproduce UITextView firstCharacter issue on iOS9
+Sample project to reproduce UITextView firstCharacter issue on iOS9.
 
 ```
 @implementation NSString (Test)
@@ -10,7 +10,7 @@ Sample project to reproduce UITextView firstCharacter issue on iOS9
 @end
 ```
 
-will not return 1 as expected after a new UITextView
+This method will not return 1 as expected after a new UITextView has been created.
 
 To reproduce the issue open this project in Xcode and run included Unit Tests:
 ```
